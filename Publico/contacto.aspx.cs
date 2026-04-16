@@ -13,5 +13,41 @@ namespace waPW2026.Publico
         {
 
         }
+
+        protected void btnEnviar_Click(object sender, EventArgs e)
+        {
+            try
+            {
+
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+        }
+
+        protected void btnEnviar_Click2(object sender, EventArgs e)
+        {
+            try
+            {
+                //Response.Write("<script>alert('Estoy en contacto')</script>");
+                if (Page.IsValid)
+                {
+                    lblMje.Text = "Datos Enviados";
+                    lblMje.Visible = true;
+                }
+                else
+                {
+                    lblMje.Text = "Revisar Datos";
+                    lblMje.Visible = true;
+                }
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+        }
     }
 }
