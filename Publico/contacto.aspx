@@ -5,23 +5,18 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <h1>CONT@CTO</h1>
     <div class="mb-3">
-        <label for="tbEmail" class="form-label">Email</label>
-        <input
-            type="email"
-            name="email"
-            class="form-control"
-            id="tbEmail"
-            placeholder="jjgarr@gmail.com" />
+        Nombre:
+        <asp:TextBox ID="tbNombre" runat="server" CssClass="form-control"></asp:TextBox>
     </div>
     <div class="mb-3">
-        <label for="tbContraseña" class="form-label">Comentarios</label>
-        <textarea
-            name="comentarios"
-            id="tbcomentarios"
-            class="form-control"
-            rows="3"></textarea>
+        Email:
+        <asp:TextBox ID="tbEmail" runat="server" CssClass="form-control"></asp:TextBox>
     </div>
     <div class="mb-3">
-        <button type="submit" class="btn btn-primary">Enviar</button>
+        Comentarios:
+        <asp:TextBox ID="tbComentarios" runat="server" TextMode="MultiLine" CssClass="form-control"></asp:TextBox>
+    </div>
+    <div class="mb-3">
+        <asp:Button ID="btnEnviar" runat="server" Text="Enviar" CssClass="btn btn-primary" />
     </div>
 </asp:Content>
