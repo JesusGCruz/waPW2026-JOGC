@@ -24,6 +24,15 @@ namespace waPW2026.Publico
         protected global::System.Web.UI.WebControls.Label lblMje;
 
         /// <summary>
+        /// Control ValidationSummary.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ValidationSummary ValidationSummary;
+
+        /// <summary>
         /// Control rfvNombre.
         /// </summary>
         /// <remarks>
@@ -67,6 +76,15 @@ namespace waPW2026.Publico
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox tbEmail;
+
+        /// <summary>
+        /// Control DropDownList1.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList DropDownList1;
 
         /// <summary>
         /// Control rfvComentarios.

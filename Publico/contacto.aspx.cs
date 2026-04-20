@@ -45,7 +45,7 @@ namespace waPW2026.Publico
             }
             catch (Exception)
             {
-
+                lblMje.Visible = false;
                 throw;
             }
         }
