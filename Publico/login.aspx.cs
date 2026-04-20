@@ -23,6 +23,7 @@ namespace waPW2026.Publico
                 {
                     Session["userName"] = lgAcceso.UserName;
                     e.Authenticated = true;
+                    //Response.Redirect("~/privado/Deault.aspx");
                 }
                 else
                 {

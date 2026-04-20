@@ -17,6 +17,9 @@
         <div class="wrapper">
             <header class="header">
                 <div class="logo">DAW::2026</div>
+                <div>
+                    <asp:LoginName ID="LoginName1" runat="server" />
+                </div>
                 <button class="menu-toggle">&#9776</button>
                 <!--
                 <nav class="nav">
