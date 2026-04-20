@@ -56,6 +56,7 @@
     <Content Include="Publico\contacto.aspx" />
     <Content Include="Publico\Default.aspx" />
     <Content Include="Publico\js\miScript.js" />
+    <Content Include="Publico\login.aspx" />
     <Content Include="Publico\principal.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -91,6 +92,13 @@
     </Compile>
     <Compile Include="Publico\Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Publico\login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Publico\login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
     </Compile>
     <Compile Include="Publico\principal.Master.cs">
       <DependentUpon>principal.Master</DependentUpon>

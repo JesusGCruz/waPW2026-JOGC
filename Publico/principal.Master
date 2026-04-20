@@ -38,6 +38,9 @@
                         <asp:MenuItem NavigateUrl="~/Publico/contacto.aspx" Text="Contacto" Value="contacto"></asp:MenuItem>
                     </Items>
                 </asp:Menu>
+                <div class="nav">
+                    <asp:LoginStatus ID="LoginStatus1" runat="server" />
+                </div>
             </header>
             <main class="container">
                 <section class="content" id="secContent">

@@ -31,7 +31,6 @@
     <div class="mb-3">
         Comentarios:        <asp:RequiredFieldValidator ID="rfvComentarios" runat="server" ErrorMessage="Comentarios Requeridos" ControlToValidate="tbComentarios">*</asp:RequiredFieldValidator>
         <asp:TextBox ID="tbComentarios" runat="server" TextMode="MultiLine" CssClass="form-control"></asp:TextBox>
-
     </div>
     <div class="mb-3">
         <asp:Button ID="btnEnviar" runat="server" Text="Enviar" CssClass="btn btn-primary" OnClick="btnEnviar_Click2" />
